@@ -1,57 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rubik',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
-.container::before{
-    content: "";
-    background-image: url('./assests/hammer.jpg') ;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    z-index: -1;
+.container::before {
+  content: "";
+  background-image: url("./assests/hammer.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 10px;
-    font-size: 20px;
-    background-color: #2b2922 ;
-    /* height: 80px; */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 20px;
+  background-color: #2b2922;
+  /* height: 80px; */
 }
 
-.navbar__left{
-display: flex;
-
+.navbar__left {
+  display: flex;
 }
 
-.logo{
-    width: 100px;
+.logo {
+  width: 100px;
 }
-.navbar__right{
-    display: flex;
-    /* border: 2px solid red; */
-    /* height: 100%; */
-    
+.navbar__right {
+  display: flex;
+  /* border: 2px solid red; */
+  /* height: 100%; */
 }
 
-.list{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    color: #73716a;
-    margin-right: 30px;
-    /* height: 100%; */
-    align-items: center;
+.list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: #73716a;
+  margin-right: 30px;
+  /* height: 100%; */
+  align-items: center;
 }
 
 /* .list-item{
@@ -59,42 +57,43 @@ display: flex;
     border: 2px solid red;
 } */
 
-.navbar__button{
-  color:  #9c8c35;
+.navbar__button {
+  color: #9c8c35;
   padding: 10px 25px;
   border: 1px solid #9c8c35;
   /* background-color: #9c8c35; */
   outline: none;
   background-color: transparent;
   font-size: 20px;
-    /* height:100% */
-    border-radius: 7px;
+  /* height:100% */
+  border-radius: 7px;
 }
 
-.list-item:hover, .navbar__button:hover{
-    font-weight: 600;
-    color: #fff;
-    border-color: #fff;
+.list-item:hover,
+.navbar__button:hover {
+  font-weight: 600;
+  color: #fff;
+  border-color: #fff;
+}
+/* text-decoration: underline; */
+
+.intro {
+  background-color: #2b2922;
+  height: 50vh;
 }
 
-.intro{
-    background-color: #2b2922 ;
-    height: 50vh;
-    
+.heading {
+  font-size: 80px;
+  position: absolute;
+  top: 130px;
+  left: 124px;
+  color: #fff;
 }
 
-.heading{
-    font-size: 80px;
-    position: absolute;
-    top: 130px;
-    left: 124px;
-    color: #fff;
-}
-
-.para{
-position: absolute;
-top: 160px;
-right:40px;
-font-size: 24px;
-color: #c0c0c0;
+.para {
+  position: absolute;
+  top: 160px;
+  right: 40px;
+  font-size: 24px;
+  color: #c0c0c0;
 }
